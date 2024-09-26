@@ -1,2 +1,16 @@
 <!--pages/picture/picture.wxml-->
-<text>pages/picture/picture.wxml</text>
+<!-- <text>pages/picture/picture.wxml</text> -->
+<swiper indicator-color="white" indicator-active-color="#ff4c91" indicator-dots autoplay interval="3500" duration="1000" vertical circular>
+<swiper-item>
+  <image src="/images/timg1.jpg" />
+</swiper-item>
+<swiper-item>
+  <image src="/images/timg2.jpg" />
+</swiper-item>
+<swiper-item>
+  <image src="/images/timg3.jpg" />
+</swiper-item>
+<swiper-item>
+  <image src="/images/timg4.jpg" />
+</swiper-item>
+</swiper>
